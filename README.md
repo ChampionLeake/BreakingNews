@@ -1,5 +1,5 @@
-# BreakingNews
-<img src="https://cdn.discordapp.com/attachments/547986366357700620/581670627946266649/Capture.JPG" width="320">
+# BreakingNews (NDS Exploit)
+<img src="https://cdn.discordapp.com/attachments/547986366357700620/581867294339235850/Capture.JPG" width="320">
 A "New York Times Crossword" stack smash exploit for the Nintendo DS that can execute unsigned code from the savegame.
 
 * These are ARM9 exploits that takes over a NDS mode cartridge. These type of exploits are very limited since there's no SD or NAND access. They can be used to run a small payload. These exploits are almost useless.
