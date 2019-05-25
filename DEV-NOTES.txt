@@ -1,0 +1,14 @@
+/* NYTCrossHaxx 2019 */
+/* by ChampionLeake */
+/* A "New York Times Crossword" NDS stack smash exploit */
+
+Savefile is approximently 0x1FFF(8 KB) bytes long. This game has 4 saveslots, you can easily overwrite any of them to stack on additional code
+
+Vulnerability: Stack Smash Buffer Overflow via Player Name
+The player name has a limit of 15 character strings to create the save-slot. The string length/size is not checked so using a long extensive string, one can overwrite several stack registers and take control of the Point Counter(0x1A7 bytes) and using it to jump to your unsigned code from the stack. 
+
+Payload Address: 0xb9e84 + 0x02000000 = 0x020b9e84 (84 9e 0b 02)
+Payload Offset: 0x1900
+Jump Offset(in the savefile): 0x20
+
+-Ttext=0x0x20B85B4 used in the 'Makefile' to be able to access memory relative to where the payload is loaded.
