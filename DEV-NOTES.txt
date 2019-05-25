@@ -1,4 +1,4 @@
-/* NYTCrossHaxx 2019 */
+/* BreakingNews 2019 */
 /* by ChampionLeake */
 /* A "New York Times Crossword" NDS stack smash exploit */
 

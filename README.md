@@ -1,5 +1,5 @@
-# NYTCrossHaxx
-((EXPLOIT IS GOING TO RENAMED TO BREAKING-NEWS SOON))
+# BreakingNews
+<img src="https://cdn.discordapp.com/attachments/547986366357700620/581670627946266649/Capture.JPG" width="320">
 A "New York Times Crossword" stack smash exploit for the Nintendo DS that can execute unsigned code from the savegame.
 
 * These are ARM9 exploits that takes over a NDS mode cartridge. These type of exploits are very limited since there's no SD or NAND access. They can be used to run a small payload. These exploits are almost useless.
@@ -10,7 +10,7 @@ A "New York Times Crossword" stack smash exploit for the Nintendo DS that can ex
 * A way to inject the save. (DSi users can use [ndsi-savedumper](https://github.com/edo9300/ndsi-savedumper) and 3DS users can use [TWLSaveTool](https://github.com/TuxSH/TWLSaveTool/releases).
 ###
 ## Triggering the exploit
-* Select the `rename` button on the bottom screen while the `NYTCrossHaxx` save-slot is selected
+* Select the `rename` button on the bottom screen while the `BreakingNews` save-slot is selected
 * The payload should load! :D
 ###
 ## Support:
@@ -21,5 +21,7 @@ A "New York Times Crossword" stack smash exploit for the Nintendo DS that can ex
 * [ihaveamac](https://github.com/ihaveamac): Creating the python script
 * [St4rkDev](https://twitter.com/St4rkDev): Original payload code
 ###
-## Exploit screenshot:
-<img src="https://cdn.discordapp.com/attachments/547986366357700620/581670627946266649/Capture.JPG" width="320">
+## Video Demonstration:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=drayJZ3LNZQ
+" target="_blank"><img src="http://img.youtube.com/vi/drayJZ3LNZQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
