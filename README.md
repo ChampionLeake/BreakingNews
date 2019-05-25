@@ -1,4 +1,5 @@
 # NYTCrossHaxx
+((EXPLOIT IS GOING TO RENAMED TO BREAKING-NEWS SOON))
 A "New York Times Crossword" stack smash exploit for the Nintendo DS that can execute unsigned code from the savegame.
 
 * These are ARM9 exploits that takes over a NDS mode cartridge. These type of exploits are very limited since there's no SD or NAND access. They can be used to run a small payload. These exploits are almost useless.
