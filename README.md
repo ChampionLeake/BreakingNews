@@ -19,6 +19,7 @@ A "New York Times Crossword" stack smash exploit for the Nintendo DS that can ex
 ## Credits:
 * [ihaveamac](https://github.com/ihaveamac): Creating the python script
 * [St4rkDev](https://twitter.com/St4rkDev): Original payload code
+* [W3SLAV](https://github.com/W3SLAV): Updated the Makefile for Calico
 ###
 ## Video Demonstration:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=drayJZ3LNZQ
